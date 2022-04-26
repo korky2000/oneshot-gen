@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>one shot generator</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+      
+    </style>
+
+</head>
+<body>
+    <script src="oneshot.js"></script>
+
+    <div id="heading">
+        <h1>one shot generator</h1>
+        <h3><a href="index.html">home</a></h3>
+    </div>
+    <div class="screen">
+        <h2>Basic Info</h2>
+        <h3 id="random_name"></h3>
+        <p id="random_eye"></p>
+        <p id="leader"></p>
+        <h2>Notable Places</h2>
+        <p id="temple"></p>
+        <p id="tavern"></p>
+        <p id="shop"></p>
+
+        <h2>Notable NPCs</h2>
+        <p id="npc"></p>
+        <p id="npc2"></p>
+        <p id="npc3"></p>
+
+        <h2>Quest</h2>
+        <p id="random_quest"></p>
+
+    </div>
+    <div id="endButt">
+        <input id="clickMe" type="button" value="Generate Basics" onclick="generateName(); generateSize(); generateTemple(); generateNPC(); generateQuest();" />
+    </div>
+
+    <div id="endButt">
+    </div>
+
+
+</body>
+</html>
